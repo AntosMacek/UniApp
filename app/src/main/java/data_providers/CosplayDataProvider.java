@@ -1,16 +1,16 @@
 package data_providers;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
+import java.util.TreeMap;
 
 /**
  * Created by antos on 8/1/16.
  */
 public class CosplayDataProvider {
 
-    public static HashMap<String, List<String>> getInfo() {
-        HashMap<String, List<String>> cosplayDetails = new HashMap<>();
+    public static TreeMap<String, List<String>> getInfo() {
+        TreeMap<String, List<String>> cosplayDetails = new TreeMap<>();
         List<String> DayOneBlockOne = new ArrayList<>();
 
         DayOneBlockOne.add("V Dosku");

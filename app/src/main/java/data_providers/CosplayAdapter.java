@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
 
-import java.util.HashMap;
 import java.util.List;
+import java.util.TreeMap;
 
 import uncon.lv.uniapp.R;
 
@@ -19,10 +19,10 @@ import uncon.lv.uniapp.R;
 public class CosplayAdapter extends BaseExpandableListAdapter {
 
     private Context ctx;
-    private HashMap<String, List<String>> cosplayersMap;
+    private TreeMap<String, List<String>> cosplayersMap;
     private List<String> cosplayList;
 
-    public CosplayAdapter(Context ctx, HashMap<String, List<String>> cosplayersMap, List<String> cosplayList) {
+    public CosplayAdapter(Context ctx, TreeMap<String, List<String>> cosplayersMap, List<String> cosplayList) {
         this.ctx = ctx;
         this.cosplayersMap = cosplayersMap;
         this.cosplayList = cosplayList;
@@ -68,7 +68,7 @@ public class CosplayAdapter extends BaseExpandableListAdapter {
         String groupTitle = (String) getGroup(parent);
         if (convertView == null) {
             LayoutInflater inflater = (LayoutInflater) ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = inflater.inflate(R.layout.cosplay_parent, parentView);
+            convertView = inflater.inflate(R.layout.cosplay_parent, parentView, false);
         }
         TextView parentTextView = (TextView) convertView.findViewById(R.id.cosplay_parent_txt);
         parentTextView.setTypeface(null, Typeface.BOLD);
