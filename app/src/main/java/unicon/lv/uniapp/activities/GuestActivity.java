@@ -1,4 +1,4 @@
-package uncon.lv.uniapp.activities;
+package unicon.lv.uniapp.activities;
 
 import android.os.Bundle;
 import android.widget.ExpandableListView;
@@ -6,32 +6,31 @@ import android.widget.ExpandableListView;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.TreeMap;
 
-import data_providers.PanelAdapter;
-import data_providers.PanelDataProvider;
+import unicon.lv.uniapp.data_providers.DataAdapter;
+import unicon.lv.uniapp.data_providers.GuestDataProvider;
 import uncon.lv.uniapp.R;
 
 /**
  * Created by antos on 7/31/16.
  */
-public class PanelActivity extends YberActivity {
+public class GuestActivity extends YberActivity {
 
-    private LinkedHashMap<String, List<String>> panelMap;
-    private List<String> panelList;
+    private LinkedHashMap<String, List<String>> guestMap;
+    private List<String> guestList;
     private ExpandableListView expList;
-    private PanelAdapter adapter;
+    private DataAdapter adapter;
     private int lastExpandablePosition = -1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_panel);
+        setContentView(R.layout.activity_guest);
         setMenuButton();
-        expList = (ExpandableListView) findViewById(R.id.panel_exp_list);
-        panelMap = PanelDataProvider.getInfo();
-        panelList = new ArrayList<>(panelMap.keySet());
-        adapter = new PanelAdapter(this, panelMap, panelList);
+        expList = (ExpandableListView) findViewById(R.id.guest_exp_list);
+        guestMap = GuestDataProvider.getInfo();
+        guestList = new ArrayList<>(guestMap.keySet());
+        adapter = new DataAdapter(this, guestMap, guestList, R.id.guest_parent_txt, R.layout.exp_guest_parent, R.id.guest_child_txt, R.layout.exp_guest_child);
         expList.setAdapter(adapter);
 
         expList.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {

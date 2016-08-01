@@ -16,7 +16,7 @@
         android:id="@+id/menu_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/scroller"
+        android:layout_alignEnd="@+id/event_map_exp_list"
         android:onClick="doPopup"
         android:src="@drawable/menu"/>
 
@@ -24,26 +24,19 @@
         android:id="@+id/home_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/scroller"
+        android:layout_alignStart="@+id/event_map_exp_list"
         android:onClick="goHome"
         android:src="@drawable/home"/>
 
-    <ScrollView
-        android:id="@+id/scroller"
-        android:layout_width="fill_parent"
+
+    <ExpandableListView
+        android:id="@+id/event_map_exp_list"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:layout_below="@+id/menu_button"
-        android:scrollbars="vertical"
-        android:fillViewport="true">
+        android:divider="#5900FF"
+        android:dividerHeight="3dp"/>
 
-        <ImageView
-            android:id="@+id/big_map"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:scaleType="center"
-            android:src="@drawable/map" />
-
-    </ScrollView>
 
 </RelativeLayout>

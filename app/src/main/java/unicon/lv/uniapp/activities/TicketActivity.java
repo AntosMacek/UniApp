@@ -1,4 +1,4 @@
-package uncon.lv.uniapp.activities;
+package unicon.lv.uniapp.activities;
 
 import android.os.Bundle;
 

@@ -1,38 +1,36 @@
-package uncon.lv.uniapp.activities;
+package unicon.lv.uniapp.activities;
 
 import android.os.Bundle;
 import android.widget.ExpandableListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.TreeMap;
 
-import data_providers.CosplayAdapter;
-import data_providers.CosplayDataProvider;
 import uncon.lv.uniapp.R;
+import unicon.lv.uniapp.data_providers.EventMapAdapter;
+import unicon.lv.uniapp.data_providers.EventMapDataProvider;
 
 /**
  * Created by antos on 7/31/16.
  */
-public class CosplayActivity extends YberActivity {
+public class EventMapActivity extends YberActivity {
 
-    private TreeMap<String, List<String>> cosplayersMap;
-    private List<String> cosplayList;
+    private LinkedHashMap<String, List<String>> eventMapMap;
+    private List<String> eventMapList;
     private ExpandableListView expList;
-    private CosplayAdapter adapter;
+    private EventMapAdapter adapter;
     private int lastExpandablePosition = -1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cosplay);
+        setContentView(R.layout.activity_event_map);
         setMenuButton();
-        expList = (ExpandableListView) findViewById(R.id.cosplay_exp_list);
-        cosplayersMap = CosplayDataProvider.getInfo();
-        cosplayList = new ArrayList<>(cosplayersMap.keySet());
-        adapter = new CosplayAdapter(this, cosplayersMap, cosplayList);
+        expList = (ExpandableListView) findViewById(R.id.event_map_exp_list);
+        eventMapMap = EventMapDataProvider.getInfo();
+        eventMapList = new ArrayList<>(eventMapMap.keySet());
+        adapter = new EventMapAdapter(this, eventMapMap, eventMapList);
         expList.setAdapter(adapter);
 
         expList.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
@@ -45,4 +43,5 @@ public class CosplayActivity extends YberActivity {
             }
         });
     }
+
 }

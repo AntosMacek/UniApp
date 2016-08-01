@@ -1,16 +1,16 @@
-package data_providers;
+package unicon.lv.uniapp.data_providers;
 
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.TreeMap;
 
 /**
  * Created by antos on 8/1/16.
  */
 public class CosplayDataProvider {
 
-    public static TreeMap<String, List<String>> getInfo() {
-        TreeMap<String, List<String>> cosplayDetails = new TreeMap<>();
+    public static LinkedHashMap<String, List<String>> getInfo() {
+        LinkedHashMap<String, List<String>> cosplayDetails = new LinkedHashMap<>();
         List<String> DayOneBlockOne = new ArrayList<>();
 
         DayOneBlockOne.add("V Dosku");

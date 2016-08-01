@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.MainActivity">
+        <activity android:name="unicon.lv.uniapp.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,35 +16,35 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.ScheduleActivity"
+            android:name="unicon.lv.uniapp.activities.ScheduleActivity"
             android:label="Schedule">
         </activity>
         <activity
-            android:name=".activities.EventMapActivity"
+            android:name="unicon.lv.uniapp.activities.EventMapActivity"
             android:label="Event Map">
         </activity>
         <activity
-            android:name=".activities.LocationActivity"
+            android:name="unicon.lv.uniapp.activities.LocationActivity"
             android:label="Location">
         </activity>
         <activity
-            android:name=".activities.TicketActivity"
+            android:name="unicon.lv.uniapp.activities.TicketActivity"
             android:label="Ticket Info">
         </activity>
         <activity
-            android:name=".activities.GuestActivity"
+            android:name="unicon.lv.uniapp.activities.GuestActivity"
             android:label="Special Guests">
         </activity>
         <activity
-            android:name=".activities.PanelActivity"
+            android:name="unicon.lv.uniapp.activities.PanelActivity"
             android:label="Panels">
         </activity>
         <activity
-            android:name=".activities.CosplayActivity"
+            android:name="unicon.lv.uniapp.activities.CosplayActivity"
             android:label="Cosplay">
         </activity>
         <activity
-            android:name=".activities.PolicyActivity"
+            android:name="unicon.lv.uniapp.activities.PolicyActivity"
             android:label="Policy">
         </activity>
     </application>

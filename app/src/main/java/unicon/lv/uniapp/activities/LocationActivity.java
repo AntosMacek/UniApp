@@ -1,15 +1,18 @@
-package uncon.lv.uniapp.activities;
+package unicon.lv.uniapp.activities;
 
 import android.os.Bundle;
 
 import uncon.lv.uniapp.R;
 
-public class MainActivity extends YberActivity {
+/**
+ * Created by antos on 7/31/16.
+ */
+public class LocationActivity extends YberActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_location);
         setMenuButton();
     }
 }
