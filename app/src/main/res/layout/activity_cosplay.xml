@@ -28,15 +28,13 @@
         android:onClick="goHome"
         android:src="@drawable/home"/>
         
-        <ExpandableListView
-            android:id="@+id/cosplay_exp_list"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:layout_below="@+id/menu_button"
-            android:divider="#5900FF"
-            android:dividerHeight="3dp">
-
-        </ExpandableListView>
+    <ExpandableListView
+        android:id="@+id/cosplay_exp_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/menu_button"
+        android:divider="#5900FF"
+        android:dividerHeight="3dp"/>
 
 </RelativeLayout>

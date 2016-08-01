@@ -68,7 +68,7 @@ public class CosplayAdapter extends BaseExpandableListAdapter {
         String groupTitle = (String) getGroup(parent);
         if (convertView == null) {
             LayoutInflater inflater = (LayoutInflater) ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = inflater.inflate(R.layout.cosplay_parent, parentView, false);
+            convertView = inflater.inflate(R.layout.exp_cosplay_parent, parentView, false);
         }
         TextView parentTextView = (TextView) convertView.findViewById(R.id.cosplay_parent_txt);
         parentTextView.setTypeface(null, Typeface.BOLD);
@@ -81,7 +81,7 @@ public class CosplayAdapter extends BaseExpandableListAdapter {
         String childTitle = (String) getChild(parent, child);
         if (convertView == null) {
             LayoutInflater inflater = (LayoutInflater) ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = inflater.inflate(R.layout.cosplay_child, parentView, false);
+            convertView = inflater.inflate(R.layout.exp_cosplay_child, parentView, false);
         }
         TextView childTextView = (TextView) convertView.findViewById(R.id.cosplay_child_txt);
         childTextView.setText(childTitle);
