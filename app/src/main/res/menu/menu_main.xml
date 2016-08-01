@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity">
+
+    <item
+        android:id="@+id/schedule"
+        android:title="@string/schedule_title"
+        />
+    <item
+        android:id="@+id/event_map"
+        android:title="@string/event_map_title"
+        />
+    <item
+        android:id="@+id/location"
+        android:title="@string/location_title"
+        />
+    <item
+        android:id="@+id/ticket_info"
+        android:title="@string/ticket_title"
+        />
+    <item
+        android:id="@+id/special_guests"
+        android:title="@string/guest_title"
+        />
+    <item
+        android:id="@+id/panels"
+        android:title="@string/panel_title"
+        />
+    <item
+        android:id="@+id/cosplay"
+        android:title="@string/cosplay_title"
+        />
+    <item
+        android:id="@+id/policy"
+        android:title="@string/policy_title"
+        />
+
+</menu>

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">UniApp</string>
+
+    <string name="header">UniCon 2016\n6th &amp; 7th of August\nRiga, Latvia</string>
+
+    <string name="text_wall">
+        Welcome to UniCon 2016 - the biggest multi-genre convention in the Baltic states and the event which unites most notable geek and popular culture phenomena!
+        \nWe are delighted to welcome you at UniCon 2016 – the biggest multi-genre convention in the Baltic States! UniCon is an event which unites- the most notable geek and related popular culture and technological phenomena!
+        \nThis is the fourth time we are organizing UniCon in Riga – a place where fans of comics, anime, books, movies, cosplay, crafting and many other great and amazing things meet in order to celebrate their hobbies, sub cultures or discover something new to enjoy. With your passion and constant support we have been able to continually evolve and bring more and more content and projects to your
+attention. This year we would like to introduce the renewed eSports and VR areas, which got five times bigger!
+        \nThanks to your interest, we are able to attract additional companies from Latvia and other countries. At this rate for 2017 (which is going to be our 5 year anniversary!) we will need
+even more space for the event – and we already have big plans for that!
+    </string>
+
+    <string name="ticket_text">
+        UniCon 2016 tickets will be available via "Biļešu Serviss" box office and online services later in May.\n\n
+
+        There are the following ticket categories:\n
+        One day ticket - 15 €\n
+        Two days ticket for students - 20 €\n
+        Two days ticket regular - 24 €\n\n
+
+        - Children up to 5 years old have a free entrance to the event.\n\n
+
+        Some "Biļešu Serviss" box offices and online tickets charge additional fee for services. However, there are some box offices where purchase of the tickets without extra charge is available (e.g. Stockmann).\n
+        Tickets will be also available at the entrance for the same price!\n
+        Discount tickets are available for approved Cosplay contest participants.\n
+        Cancellation &amp; Refund Policy goes under "Biļešu Serviss" regulations.
+    </string>
+
+    <string name="policy_text">
+        UniCon is a place where everybody is welcomed and anybody can be whomever they desire. Even so, any kind of offensive or harassing behavior is not tolerated. To the best of our ability, we intend to eliminate inappropriate conduct from the convention. We provide our convention policies to be clearer on this point.
+
+        \n\nIt is very important that if you are being harassed or are in any way endangered, you report it immediately to UniCon staff members. We cannot address anything that we are not made aware of and we need whatever detail can be provided.
+
+        \n\nIf you feel you have been harassed, please find the nearest UniCon volunteer. You can recognize them by the badge with UniCon logo on it.
+
+        \n\nIn case UniCon staff cannot deal with your issue, security guards will be involved for assistance.
+
+        \n\nUniCon reserves the right to revoke or suspend entrance tickets and badges. If an individual breaks the rules of the convention, he or she may be barred from the convention, either for several hours (to sober up, perhaps) or for the rest of the event. If an individual breaks the law he or she will be arrested.
+
+        \n\n1. You need to show your wristband or/and stamp to UniCon staff and/or security guard at first notice.
+        \n2. Cigarettes, alcohol and other substances are strictly PROHIBITED on the territory of the convention! Please, report about violators and they will be removed from the convention immediately.
+        \n3. It is prohibited to damage venue\'s property.
+        \n4. It is prohibited to bring dogs, cats and other animals into the venue.
+        \n5. It is prohibited to take bicycles, roller skates or other vehicles into the venue.
+        \n6. Provisions of articles 2 to 5 are the requirements of SIA "Olimpiskis sporta centrs”. Failure to comply with those provisions may result in a fine up to 350€.
+        \n7. Please behave with respect and tolerance to other people.
+        \n8. We offer sympathy, but UniCon is not responsible for lost, stolen, or damaged property, or for injuries sustained during the course of the convention.
+        \n9. Announced events and guests are subject to change and/or cancellation without notice. Every effort will be made to announce any changes via the Internet, pre-convention publications, and our onsite newsletter, but sometimes last-minute changes may occur. So we will do our best to stick to the schedule, but we can never be 100% sure.
+        \n10. We reserve the right to ask you to leave the convention and refuse to refund your ticket money if you are behaving inappropriately.
+        \n11. Be nice, respect everyone and HAVE FUN!
+    </string>
+
+
+
+
+    <!--Titles for menues and headers-->
+    <string name="main_title">Main Page</string>
+    <string name="schedule_title">Schedule</string>
+    <string name="event_map_title">Event Map</string>
+    <string name="location_title">Location</string>
+    <string name="ticket_title">Ticket Info</string>
+    <string name="guest_title">Special Guests</string>
+    <string name="panel_title">Panels</string>
+    <string name="cosplay_title">Cosplay</string>
+    <string name="policy_title">Policy</string>
+</resources>
