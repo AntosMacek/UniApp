@@ -41,7 +41,7 @@
             android:id="@+id/big_map"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:scaleType="fitCenter"
+            android:scaleType="center"
             android:src="@drawable/map" />
 
     </ScrollView>

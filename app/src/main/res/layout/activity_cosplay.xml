@@ -36,6 +36,15 @@
         android:layout_below="@+id/menu_button"
         android:scrollbars="vertical"
         android:fillViewport="true">
+        
+        <ExpandableListView
+            android:id="@+id/cosplay_exp_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#5900FF"
+            android:dividerHeight="5dp">
+
+        </ExpandableListView>
 
     </ScrollView>
 
