@@ -11,11 +11,14 @@ public class EventMapDataProvider {
 
     public static LinkedHashMap<String, List<String>> getInfo() {
         LinkedHashMap<String, List<String>> mapDetails = new LinkedHashMap<>();
+        List<String> map0 = new ArrayList<>();
         List<String> map1 = new ArrayList<>();
         List<String> map2 = new ArrayList<>();
         List<String> map3 = new ArrayList<>();
         List<String> map4 = new ArrayList<>();
         List<String> map5 = new ArrayList<>();
+
+        map0.add("Turn your device to change the size.");
 
         map1.add("29. Entrance/info");
 
@@ -30,7 +33,7 @@ public class EventMapDataProvider {
 
         map5.add("23. Seats\n24. Stage");
 
-
+        mapDetails.put("General map", map0);
         mapDetails.put("A. Gallery", map1);
         mapDetails.put("B. Main Hall", map2);
         mapDetails.put("C. Hall", map3);

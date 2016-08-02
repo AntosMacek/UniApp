@@ -14,7 +14,7 @@ import uncon.lv.uniapp.R;
  */
 public class YberActivity extends AppCompatActivity {
 
-    public ImageButton menuButton;
+    private ImageButton menuButton;
 
     public void doPopup(View v, ImageButton menuButton) {
         final View view = v;

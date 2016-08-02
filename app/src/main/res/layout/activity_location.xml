@@ -16,7 +16,7 @@
         android:id="@+id/menu_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/scroller"
+        android:layout_alignEnd="@+id/address"
         android:onClick="doPopup"
         android:src="@drawable/menu"/>
 
@@ -24,19 +24,59 @@
         android:id="@+id/home_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/scroller"
+        android:layout_alignStart="@+id/address"
         android:onClick="goHome"
         android:src="@drawable/home"/>
 
-    <ScrollView
-        android:id="@+id/scroller"
-        android:layout_width="fill_parent"
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:layout_below="@+id/menu_button"
-        android:scrollbars="vertical"
-        android:fillViewport="true">
+        android:layout_below="@+id/header"
+        android:padding="10dp"
+        android:text="@string/our_addr"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
 
-    </ScrollView>
+    <Button
+        android:id="@+id/map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:text="@string/map_btn_label"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:onClick="doMapButtonStuff"/>
+
+
+    <TextView
+        android:id="@+id/transport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/map_button"
+        android:padding="10dp"
+        android:text="@string/transport"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/transport_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/transport"
+        android:text="@string/transport_btn1_label"
+        android:textSize="16sp"
+        android:layout_marginStart="5dp"
+        android:onClick="doTransportButtonStuff"/>
+    <TextView
+        android:id="@+id/transport_btn1_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/transport_btn1"
+        android:padding="10dp"
+        android:text="@string/transport_btn1_txt"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
 
 </RelativeLayout>

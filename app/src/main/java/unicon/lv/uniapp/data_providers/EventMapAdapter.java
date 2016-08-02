@@ -90,7 +90,9 @@ public class EventMapAdapter extends BaseExpandableListAdapter {
         ImageView imageView = (ImageView) convertView.findViewById(R.id.map);
         String groupTitle = (String) getGroup(parent);
 
-        if (groupTitle.equals("A. Gallery")) {
+        if (groupTitle.equals("General map")) {
+            imageView.setImageResource(R.drawable.a00_map);
+        } else if (groupTitle.equals("A. Gallery")) {
             imageView.setImageResource(R.drawable.a01_entrance);
         } else if (groupTitle.equals("B. Main Hall")) {
             imageView.setImageResource(R.drawable.a02_main_hall);

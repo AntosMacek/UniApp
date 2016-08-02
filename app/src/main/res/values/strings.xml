@@ -65,4 +65,20 @@ even more space for the event – and we already have big plans for that!
     <string name="panel_title">Panels</string>
     <string name="cosplay_title">Cosplay</string>
     <string name="policy_title">Policy</string>
+
+    <!--Location-->
+    <string name="map_btn_label">Riga, Grostonas iela 6b</string>
+    <string name="our_addr">Our address is</string>
+    <string name="transport">
+        Nearest public transport\'s stops are:
+    </string>
+
+    <string name="transport_btn1_label">Alojas iela</string>
+    <string name="transport_btn1_txt">
+        \tTrolls: 3
+        \n\tBusses: 11
+        \n\tMinibusses: 200 224
+        \n\tNight Busses: N2
+    </string>
+
 </resources>
