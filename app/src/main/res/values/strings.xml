@@ -3,16 +3,19 @@
 
     <string name="header">UniCon 2016\n6th &amp; 7th of August\nRiga, Latvia</string>
 
-    <string name="text_wall">
-        Welcome to UniCon 2016 - the biggest multi-genre convention in the Baltic states and the event which unites most notable geek and popular culture phenomena!
-        \nWe are delighted to welcome you at UniCon 2016 – the biggest multi-genre convention in the Baltic States! UniCon is an event which unites- the most notable geek and related popular culture and technological phenomena!
-        \nThis is the fourth time we are organizing UniCon in Riga – a place where fans of comics, anime, books, movies, cosplay, crafting and many other great and amazing things meet in order to celebrate their hobbies, sub cultures or discover something new to enjoy. With your passion and constant support we have been able to continually evolve and bring more and more content and projects to your
-attention. This year we would like to introduce the renewed eSports and VR areas, which got five times bigger!
-        \nThanks to your interest, we are able to attract additional companies from Latvia and other countries. At this rate for 2017 (which is going to be our 5 year anniversary!) we will need
+    <string name="text_wall">\n
+        Welcome to UniCon 2016 - the biggest multi-genre convention in the Baltic states and the event which unites most notable geek and popular culture phenomena!\n\n
+
+        We are delighted to welcome you at UniCon 2016 – the biggest multi-genre convention in the Baltic States! UniCon is an event which unites- the most notable geek and related popular culture and technological phenomena!\n\n
+
+        This is the fourth time we are organizing UniCon in Riga – a place where fans of comics, anime, books, movies, cosplay, crafting and many other great and amazing things meet in order to celebrate their hobbies, sub cultures or discover something new to enjoy. With your passion and constant support we have been able to continually evolve and bring more and more content and projects to your
+attention. This year we would like to introduce the renewed eSports and VR areas, which got five times bigger!\n\n
+
+        Thanks to your interest, we are able to attract additional companies from Latvia and other countries. At this rate for 2017 (which is going to be our 5 year anniversary!) we will need
 even more space for the event – and we already have big plans for that!
     </string>
 
-    <string name="ticket_text">
+    <string name="ticket_text">\n
         UniCon 2016 tickets will be available via "Biļešu Serviss" box office and online services later in May.\n\n
 
         There are the following ticket categories:\n
@@ -23,21 +26,24 @@ even more space for the event – and we already have big plans for that!
         - Children up to 5 years old have a free entrance to the event.\n\n
 
         Some "Biļešu Serviss" box offices and online tickets charge additional fee for services. However, there are some box offices where purchase of the tickets without extra charge is available (e.g. Stockmann).\n
+
         Tickets will be also available at the entrance for the same price!\n
+
         Discount tickets are available for approved Cosplay contest participants.\n
+
         Cancellation &amp; Refund Policy goes under "Biļešu Serviss" regulations.
     </string>
 
-    <string name="policy_text">
-        UniCon is a place where everybody is welcomed and anybody can be whomever they desire. Even so, any kind of offensive or harassing behavior is not tolerated. To the best of our ability, we intend to eliminate inappropriate conduct from the convention. We provide our convention policies to be clearer on this point.
+    <string name="policy_text">\n
+        UniCon is a place where everybody is welcomed and anybody can be whomever they desire. Even so, any kind of offensive or harassing behavior is not tolerated. To the best of our ability, we intend to eliminate inappropriate conduct from the convention. We provide our convention policies to be clearer on this point.\n\n
 
-        \n\nIt is very important that if you are being harassed or are in any way endangered, you report it immediately to UniCon staff members. We cannot address anything that we are not made aware of and we need whatever detail can be provided.
+        It is very important that if you are being harassed or are in any way endangered, you report it immediately to UniCon staff members. We cannot address anything that we are not made aware of and we need whatever detail can be provided.\n\n
 
-        \n\nIf you feel you have been harassed, please find the nearest UniCon volunteer. You can recognize them by the badge with UniCon logo on it.
+        If you feel you have been harassed, please find the nearest UniCon volunteer. You can recognize them by the badge with UniCon logo on it.\n\n
 
-        \n\nIn case UniCon staff cannot deal with your issue, security guards will be involved for assistance.
+        In case UniCon staff cannot deal with your issue, security guards will be involved for assistance.\n\n
 
-        \n\nUniCon reserves the right to revoke or suspend entrance tickets and badges. If an individual breaks the rules of the convention, he or she may be barred from the convention, either for several hours (to sober up, perhaps) or for the rest of the event. If an individual breaks the law he or she will be arrested.
+        UniCon reserves the right to revoke or suspend entrance tickets and badges. If an individual breaks the rules of the convention, he or she may be barred from the convention, either for several hours (to sober up, perhaps) or for the rest of the event. If an individual breaks the law he or she will be arrested.
 
         \n\n1. You need to show your wristband or/and stamp to UniCon staff and/or security guard at first notice.
         \n2. Cigarettes, alcohol and other substances are strictly PROHIBITED on the territory of the convention! Please, report about violators and they will be removed from the convention immediately.
@@ -80,5 +86,9 @@ even more space for the event – and we already have big plans for that!
         \n\tMinibusses: 200 224
         \n\tNight Busses: N2
     </string>
+    <string name="webpage_title">UniCon.lv</string>
+    <string name="twitter_title">twitter</string>
+    <string name="youtube_title">youtube.com</string>
+    <string name="facebook_title">facebook</string>
 
 </resources>

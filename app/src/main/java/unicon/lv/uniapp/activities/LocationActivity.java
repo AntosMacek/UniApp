@@ -54,8 +54,6 @@ public class LocationActivity extends YberActivity {
         int buttonId = v.getId();
         if (buttonId == R.id.transport_btn1) {
             address = "https://saraksti.rigassatiksme.lv/index.html#stop/0020/en";
-        } else if (buttonId == R.id.transport_btn2) {
-            address = "https://saraksti.rigassatiksme.lv/index.html#stop/1037,1038/en";
         }
         Uri location = Uri.parse(address);
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, location);

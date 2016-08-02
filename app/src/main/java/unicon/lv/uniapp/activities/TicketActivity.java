@@ -1,7 +1,6 @@
 package unicon.lv.uniapp.activities;
 
 import android.os.Bundle;
-
 import uncon.lv.uniapp.R;
 
 /**

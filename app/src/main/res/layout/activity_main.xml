@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    xmlns:ext="http://schemas.android.com/apk/res-auto"
     android:layout_margin="5dp"
     tools:context="unicon.lv.uniapp.activities.MainActivity">
 
@@ -26,23 +27,17 @@
         android:gravity="center"/>
 
 
-    <ScrollView
-        android:id="@+id/scroller"
-        android:layout_width="fill_parent"
+    <com.bluejamesbond.text.DocumentView
+        android:id="@+id/congrats"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/logo"
-        android:scrollbars="vertical"
-        android:fillViewport="true">
+        android:layout_margin="5dp"
+        ext:documentView_text="@string/text_wall"
+        ext:documentView_textAlignment="justified"
+        ext:documentView_textColor="@android:color/black"
+        ext:documentView_textSize="20sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:gravity="center"
-            android:text="@string/text_wall"
-            />
-
-    </ScrollView>
 
     <ImageButton
         android:id="@+id/menu_button"
@@ -53,6 +48,16 @@
         android:layout_marginBottom="25dp"
         android:onClick="doPopup"
         android:src="@drawable/menu"/>
+
+    <ImageButton
+        android:id="@+id/social_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logo"
+        android:layout_alignStart="@+id/header"
+        android:layout_marginBottom="25dp"
+        android:onClick="doSocialPopup"
+        android:src="@drawable/social"/>
 
 
 </RelativeLayout>
