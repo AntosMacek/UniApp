@@ -34,7 +34,7 @@
         android:id="@+id/tickets"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/header"
+        android:layout_below="@+id/menu_button"
         android:layout_margin="5dp"
         ext:documentView_text="@string/ticket_text"
         ext:documentView_textAlignment="justified"
