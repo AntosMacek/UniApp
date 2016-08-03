@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:ext="http://schemas.android.com/apk/res-auto">
+    xmlns:ext="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
 
     <TextView
         android:id="@+id/header"
@@ -12,13 +16,13 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:gravity="center"
-        />
+        android:textColor="@color/white" />
 
     <ImageButton
         android:id="@+id/menu_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/tickets"
+        android:layout_alignEnd="@+id/tickets_part1"
         android:onClick="doPopup"
         android:src="@drawable/menu"/>
 
@@ -26,19 +30,41 @@
         android:id="@+id/home_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/tickets"
+        android:layout_alignStart="@+id/tickets_part1"
         android:onClick="goHome"
         android:src="@drawable/home"/>
 
     <com.bluejamesbond.text.DocumentView
-        android:id="@+id/tickets"
+        android:id="@+id/tickets_part1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/menu_button"
-        android:layout_margin="5dp"
-        ext:documentView_text="@string/ticket_text"
+        android:layout_margin="10dp"
+        ext:documentView_text="@string/ticket_text_part1"
         ext:documentView_textAlignment="justified"
-        ext:documentView_textColor="@android:color/black"
+        ext:documentView_textColor="@android:color/white"
+        ext:documentView_textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/bilesu_logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/tickets_part1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/bilesu"
+        android:gravity="center"/>
+
+    <com.bluejamesbond.text.DocumentView
+        android:id="@+id/tickets_part2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bilesu_logo"
+        android:layout_margin="10dp"
+        ext:documentView_text="@string/ticket_text_part1"
+        ext:documentView_textAlignment="justified"
+        ext:documentView_textColor="@android:color/white"
         ext:documentView_textSize="20sp" />
 
 </RelativeLayout>
+</ScrollView>

@@ -15,7 +15,7 @@ attention. This year we would like to introduce the renewed eSports and VR areas
 even more space for the event – and we already have big plans for that!\n
     </string>
 
-    <string name="ticket_text">\n
+    <string name="ticket_text_part1">\n
         UniCon 2016 tickets will be available via "Biļešu Serviss" box office and online services later in May.\n\n
 
         There are the following ticket categories:\n
@@ -23,7 +23,11 @@ even more space for the event – and we already have big plans for that!\n
         Two days ticket for students - 20 €\n
         Two days ticket regular - 24 €\n\n
 
-        - Children up to 5 years old have a free entrance to the event.\n\n
+        - Children up to 5 years old have a free entrance to the event.\n
+
+    </string>
+
+    <string name="ticket_text_part2">
 
         Some "Biļešu Serviss" box offices and online tickets charge additional fee for services. However, there are some box offices where purchase of the tickets without extra charge is available (e.g. Stockmann).\n
 
@@ -34,7 +38,7 @@ even more space for the event – and we already have big plans for that!\n
         Cancellation &amp; Refund Policy goes under "Biļešu Serviss" regulations.\n
     </string>
 
-    <string name="policy_text">\n
+    <string name="policy_text_part1">\n
         UniCon is a place where everybody is welcomed and anybody can be whomever they desire. Even so, any kind of offensive or harassing behavior is not tolerated. To the best of our ability, we intend to eliminate inappropriate conduct from the convention. We provide our convention policies to be clearer on this point.\n\n
 
         It is very important that if you are being harassed or are in any way endangered, you report it immediately to UniCon staff members. We cannot address anything that we are not made aware of and we need whatever detail can be provided.\n\n
@@ -45,7 +49,10 @@ even more space for the event – and we already have big plans for that!\n
 
         UniCon reserves the right to revoke or suspend entrance tickets and badges. If an individual breaks the rules of the convention, he or she may be barred from the convention, either for several hours (to sober up, perhaps) or for the rest of the event. If an individual breaks the law he or she will be arrested.
 
-        \n\n1. You need to show your wristband or/and stamp to UniCon staff and/or security guard at first notice.
+    </string>
+
+    <string name="policy_text_part2">\n
+        \n1. You need to show your wristband or/and stamp to UniCon staff and/or security guard at first notice.
         \n2. Cigarettes, alcohol and other substances are strictly PROHIBITED on the territory of the convention! Please, report about violators and they will be removed from the convention immediately.
         \n3. It is prohibited to damage venue\'s property.
         \n4. It is prohibited to bring dogs, cats and other animals into the venue.
@@ -76,7 +83,7 @@ even more space for the event – and we already have big plans for that!\n
     <string name="map_btn_label">Riga, Grostonas iela 6b</string>
     <string name="our_addr">Our address is</string>
     <string name="transport">
-        Nearest public transport\'s stops are:
+        Nearest public transport\'s stops\nare:
     </string>
 
     <string name="transport_btn1_label">Alojas iela</string>

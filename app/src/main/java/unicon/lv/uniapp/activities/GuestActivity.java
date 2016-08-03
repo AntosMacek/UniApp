@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-import unicon.lv.uniapp.data_providers.DataAdapter;
+import unicon.lv.uniapp.data_providers.GuestAdapter;
 import unicon.lv.uniapp.data_providers.GuestDataProvider;
 import uncon.lv.uniapp.R;
 
@@ -19,7 +19,7 @@ public class GuestActivity extends YberActivity {
     private LinkedHashMap<String, List<String>> guestMap;
     private List<String> guestList;
     private ExpandableListView expList;
-    private DataAdapter adapter;
+    private GuestAdapter adapter;
     private int lastExpandablePosition = -1;
 
     @Override
@@ -30,7 +30,7 @@ public class GuestActivity extends YberActivity {
         expList = (ExpandableListView) findViewById(R.id.guest_exp_list);
         guestMap = GuestDataProvider.getInfo();
         guestList = new ArrayList<>(guestMap.keySet());
-        adapter = new DataAdapter(this, guestMap, guestList, R.id.guest_parent_txt, R.layout.exp_guest_parent, R.id.guest_child_txt, R.layout.exp_guest_child);
+        adapter = new GuestAdapter(this, guestMap, guestList);
         expList.setAdapter(adapter);
 
         expList.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {

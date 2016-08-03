@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:ext="http://schemas.android.com/apk/res-auto">
+    xmlns:ext="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
 
     <TextView
         android:id="@+id/header"
@@ -12,13 +16,13 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:gravity="center"
-        />
+        android:textColor="@color/white" />
 
     <ImageButton
         android:id="@+id/menu_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/policies"
+        android:layout_alignEnd="@+id/policies_part1"
         android:onClick="doPopup"
         android:src="@drawable/menu"/>
 
@@ -26,20 +30,31 @@
         android:id="@+id/home_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/policies"
+        android:layout_alignStart="@+id/policies_part1"
         android:onClick="goHome"
         android:src="@drawable/home"/>
 
-
     <com.bluejamesbond.text.DocumentView
-        android:id="@+id/policies"
+        android:id="@+id/policies_part1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/header"
         android:layout_margin="5dp"
-        ext:documentView_text="@string/policy_text"
+        ext:documentView_text="@string/policy_text_part1"
         ext:documentView_textAlignment="justified"
-        ext:documentView_textColor="@android:color/black"
+        ext:documentView_textColor="@android:color/white"
+        ext:documentView_textSize="20sp" />
+
+    <com.bluejamesbond.text.DocumentView
+        android:id="@+id/policies_part2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/policies_part1"
+        android:layout_margin="5dp"
+        ext:documentView_text="@string/policy_text_part2"
+        ext:documentView_textAlignment="justified"
+        ext:documentView_textColor="@android:color/white"
         ext:documentView_textSize="20sp" />
 
 </RelativeLayout>
+</ScrollView>

@@ -22,10 +22,18 @@ public class EventMapDataProvider {
 
         map1.add("29. Entrance/info");
 
-        map2.add("1. Dancing Area\n2. UniCon VR\n3. Crafts Area\n4. Console Gaming\n5. Coffee Inn\n6. Trade Area\n7. VR Area" +
-                "\n8. Lattelecom Area\n9. Red Bull Zone\n10. Workshops\n11. EXanimo LoL\n12. UniCon eSports\n13. Tabletops" +
-                "\n14. TCG\n15. Arts Area\n16. Jaff\n17. Exhibition Area\n18. IT & GameDev\n19. Microsoft Latvia\n20. Latlug" +
-                "\n28. Instabox\n30. Vasily Art\n31. Photowall");
+        map2.add("1. Dancing Area           2. UniCon VR" +
+                "\n3. Crafts Area             4. Console Gaming" +
+                "\n5. Coffee Inn               6. Trade Area" +
+                "\n7. VR Area                     8. Lattelecom Area" +
+                "\n9. Red Bull Zone           10. Workshops" +
+                "\n11. EXanimo LoL          12. UniCon eSports" +
+                "\n13. Tabletops                14. TCG" +
+                "\n15. Arts Area                16. Jaff" +
+                "\n17. Exhibition Area      18. IT & GameDev" +
+                "\n19. Microsoft Latvia    20. Latlug" +
+                "\n28. Instabox                   30. Vasily Art" +
+                "\n31. Photowall");
 
         map3.add("21. Stairs\n22. Entrance to the main stage");
 

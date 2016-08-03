@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
 
     <TextView
         android:id="@+id/header"
@@ -10,6 +11,7 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:gravity="center"
+        android:textColor="@color/white"
         />
 
     <ImageButton
@@ -34,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:layout_below="@+id/menu_button"
-        android:divider="#5900FF"
-        android:dividerHeight="3dp"/>
+        android:divider="@color/light_purple"
+        android:dividerHeight="1dp"/>
 
 </RelativeLayout>

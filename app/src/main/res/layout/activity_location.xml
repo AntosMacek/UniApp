@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
 
     <TextView
         android:id="@+id/header"
@@ -10,7 +11,7 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:gravity="center"
-        />
+        android:textColor="@color/white" />
 
     <ImageButton
         android:id="@+id/menu_button"
@@ -37,7 +38,8 @@
         android:text="@string/our_addr"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/map_button"
@@ -58,7 +60,9 @@
         android:padding="10dp"
         android:text="@string/transport"
         android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/transport_btn1"
@@ -77,6 +81,7 @@
         android:padding="10dp"
         android:text="@string/transport_btn1_txt"
         android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
 
 </RelativeLayout>
