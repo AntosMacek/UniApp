@@ -16,6 +16,7 @@
         android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:layout_below="@+id/social_buttons"
         android:text="@string/header"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -45,26 +46,49 @@
         ext:documentView_textSize="20sp" />
 
 
+    <LinearLayout
+        android:id="@+id/social_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/facebook_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startFacebook"
+            android:src="@drawable/facebook" />
+        <ImageButton
+            android:id="@+id/youtube_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/facebook_btn"
+            android:onClick="startYoutube"
+            android:src="@drawable/youtube" />
+        <ImageButton
+            android:id="@+id/twitter_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/youtube_btn"
+            android:onClick="startTwitter"
+            android:src="@drawable/twitter" />
+        <ImageButton
+            android:id="@+id/unicon_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/twitter_btn"
+            android:onClick="startUnicon"
+            android:src="@drawable/unicon" />
+
+
+    </LinearLayout>
+
     <ImageButton
         android:id="@+id/menu_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/logo"
-        android:layout_alignEnd="@+id/header"
-        android:layout_marginBottom="25dp"
+        android:layout_alignEnd="@+id/social_buttons"
         android:onClick="doPopup"
         android:src="@drawable/menu"/>
-
-    <ImageButton
-        android:id="@+id/social_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/logo"
-        android:layout_alignStart="@+id/header"
-        android:layout_marginBottom="25dp"
-        android:onClick="doSocialPopup"
-        android:src="@drawable/social"/>
-
 
     </RelativeLayout>
 </ScrollView>
