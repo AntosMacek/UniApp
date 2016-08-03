@@ -1,12 +1,10 @@
 <resources>
-    <string name="app_name">UniApp</string>
+    <string name="app_name">UniCon 2016</string>
 
     <string name="header">UniCon 2016\n6th &amp; 7th of August\nRiga, Latvia</string>
 
     <string name="text_wall">\n
         Welcome to UniCon 2016 - the biggest multi-genre convention in the Baltic states and the event which unites most notable geek and popular culture phenomena!\n\n
-
-        We are delighted to welcome you at UniCon 2016 – the biggest multi-genre convention in the Baltic States! UniCon is an event which unites- the most notable geek and related popular culture and technological phenomena!\n\n
 
         This is the fourth time we are organizing UniCon in Riga – a place where fans of comics, anime, books, movies, cosplay, crafting and many other great and amazing things meet in order to celebrate their hobbies, sub cultures or discover something new to enjoy. With your passion and constant support we have been able to continually evolve and bring more and more content and projects to your
 attention. This year we would like to introduce the renewed eSports and VR areas, which got five times bigger!\n\n
@@ -16,14 +14,12 @@ even more space for the event – and we already have big plans for that!\n
     </string>
 
     <string name="ticket_text_part1">\n
-        UniCon 2016 tickets will be available via "Biļešu Serviss" box office and online services later in May.\n\n
+        UniCon 2016 tickets are available at "Biļešu Serviss" box office and online.\n\n
 
-        There are the following ticket categories:\n
-        One day ticket - 15 €\n
-        Two days ticket for students - 20 €\n
-        Two days ticket regular - 24 €\n\n
+        Following ticket categories are available:\n
+        Two days ticket regular - 24 €\n
 
-        - Children up to 5 years old have a free entrance to the event.\n
+        Children up to 5 years old have a free entrance to the event.\n
 
     </string>
 
@@ -57,7 +53,7 @@ even more space for the event – and we already have big plans for that!\n
         \n3. It is prohibited to damage venue\'s property.
         \n4. It is prohibited to bring dogs, cats and other animals into the venue.
         \n5. It is prohibited to take bicycles, roller skates or other vehicles into the venue.
-        \n6. Provisions of articles 2 to 5 are the requirements of SIA "Olimpiskis sporta centrs”. Failure to comply with those provisions may result in a fine up to 350€.
+        \n6. Provisions of articles 2 to 5 are the requirements of SIA "Olimpiskais sporta centrs”. Failure to comply with those provisions may result in a fine up to 350€.
         \n7. Please behave with respect and tolerance to other people.
         \n8. We offer sympathy, but UniCon is not responsible for lost, stolen, or damaged property, or for injuries sustained during the course of the convention.
         \n9. Announced events and guests are subject to change and/or cancellation without notice. Every effort will be made to announce any changes via the Internet, pre-convention publications, and our onsite newsletter, but sometimes last-minute changes may occur. So we will do our best to stick to the schedule, but we can never be 100% sure.
@@ -83,19 +79,15 @@ even more space for the event – and we already have big plans for that!\n
     <string name="map_btn_label">Riga, Grostonas iela 6b</string>
     <string name="our_addr">Our address is</string>
     <string name="transport">
-        Nearest public transport\'s stops\nare:
+        Nearest public transport stops\nare:
     </string>
 
     <string name="transport_btn1_label">Alojas iela</string>
     <string name="transport_btn1_txt">
-        \tTrolls: 3
-        \n\tBusses: 11
-        \n\tMinibusses: 200 224
-        \n\tNight Busses: N2
+        Trolleybusses: 3
+        \nBusses: 11
+        \nMinibusses: 200 224
+        \nNight Busses: N2
     </string>
-    <string name="webpage_title">UniCon.lv</string>
-    <string name="twitter_title">twitter</string>
-    <string name="youtube_title">youtube.com</string>
-    <string name="facebook_title">facebook</string>
 
 </resources>

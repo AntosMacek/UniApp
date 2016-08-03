@@ -35,7 +35,7 @@ public class EventMapDataProvider {
                 "\n28. Instabox                   30. Vasily Art" +
                 "\n31. Photowall");
 
-        map3.add("21. Stairs\n22. Entrance to the main stage");
+        map3.add("21. Stairs to the second floor\n22. Entrance to the main stage");
 
         map4.add("25. Stairs\n26. Comics library\n27. Presentation Hall");
 

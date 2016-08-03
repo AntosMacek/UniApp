@@ -68,7 +68,7 @@ public class DataAdapter extends BaseExpandableListAdapter {
     }
 
     @Override
-    public View getGroupView(int parent, boolean isExpanded, View convertView, ViewGroup parentView) {
+    public View getGroupView(int parent, boolean isExpanded, View convertView, final ViewGroup parentView) {
         String groupTitle = (String) getGroup(parent);
         if (convertView == null) {
             LayoutInflater inflater = (LayoutInflater) ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);

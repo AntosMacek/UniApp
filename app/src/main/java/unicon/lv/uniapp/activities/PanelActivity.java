@@ -39,6 +39,7 @@ public class PanelActivity extends YberActivity {
                 if (lastExpandablePosition != -1 && groupPosition != lastExpandablePosition) {
                     expList.collapseGroup(lastExpandablePosition);
                 }
+                expList.setSelection(0);
                 lastExpandablePosition = groupPosition;
             }
         });

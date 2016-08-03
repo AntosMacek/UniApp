@@ -38,6 +38,7 @@ public class CosplayActivity extends YberActivity {
             public void onGroupExpand(int groupPosition) {
                 if (lastExpandablePosition != -1 && groupPosition != lastExpandablePosition) {
                     expList.collapseGroup(lastExpandablePosition);
+                    expList.setSelection(0);
                 }
                 lastExpandablePosition = groupPosition;
             }

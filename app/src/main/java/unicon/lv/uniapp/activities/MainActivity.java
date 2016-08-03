@@ -24,8 +24,9 @@ public class MainActivity extends YberActivity {
 
     public void startFacebook(View v) {
         socialButtonName = "http://www.facebook.com/uniconlv/";
-        doSocialStuff(v, socialButtonName);
+        newFacebookIntent(getPackageManager(), socialButtonName);
     }
+
     public void startYoutube(View v) {
         socialButtonName = "http://www.youtube.com/user/UniConLv";
         doSocialStuff(v, socialButtonName);
@@ -39,6 +40,17 @@ public class MainActivity extends YberActivity {
         doSocialStuff(v, socialButtonName);
     }
 
+    public void newFacebookIntent(PackageManager pm, String url) {
+        Uri uri;
+        try {
+            pm.getPackageInfo("com.facebook.katana", 0);
+            // http://stackoverflow.com/a/24547437/1048340
+            uri = Uri.parse("fb://facewebmodal/f?href=" + url);
+        } catch (PackageManager.NameNotFoundException e) {
+            uri = Uri.parse(url);
+        }
+        startActivity(new Intent(Intent.ACTION_VIEW, uri));
+    }
 
     private void doSocialStuff(View v, String address) {
         Uri location = Uri.parse(address);
